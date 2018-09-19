@@ -3,6 +3,7 @@ package com.example.ellen_.churrascore
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import android.content.Intent
 import kotlinx.android.synthetic.main.activity_pebolim.*
 
 class Pebolim : AppCompatActivity() {
@@ -64,6 +65,18 @@ class Pebolim : AppCompatActivity() {
             else{
                 Toast.makeText(this, "Selecione o time", Toast.LENGTH_SHORT).show()
             }
+        }
+
+        buttonFutebol.setOnClickListener {
+            val intent = Intent(this, Futebol::class.java)
+            // start your next activity
+            startActivity(intent)
+        }
+
+        buttonTruco.setOnClickListener {
+            val intent = Intent(this, Truco::class.java)
+            // start your next activity
+            startActivity(intent)
         }
     }
 }

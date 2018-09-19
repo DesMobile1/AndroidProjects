@@ -216,4 +216,30 @@
             />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonFutebol"
+            android:text="Futebol"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bdcolor"
+            android:layout_width="140dp"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/buttonPebolim"
+            android:text="Pebolim"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bdcolor"
+            android:layout_width="140dp"
+            android:layout_height="30dp" />
+
+
+    </LinearLayout>
+
 </LinearLayout >
