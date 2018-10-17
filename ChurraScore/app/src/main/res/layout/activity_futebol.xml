@@ -115,23 +115,7 @@
             android:text="-1"/>
         />
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/buttonPebolim"
-            android:text="Pebolim"
-            style="@style/buttonChange"/>
-
-        <Button
-            android:id="@+id/buttonTruco"
-            android:text="Truco"
-            style="@style/buttonChange"/>
-
-
-    </LinearLayout>
     <TextView
         style="@style/textAdd"
         android:text="DETERMINAR TEMPO:"

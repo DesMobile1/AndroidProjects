@@ -3,7 +3,6 @@ package com.example.ellen_.churrascore
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import android.content.Intent
 import kotlinx.android.synthetic.main.activity_truco.*
 
 class Truco : AppCompatActivity() {
@@ -123,16 +122,5 @@ class Truco : AppCompatActivity() {
             }
         }
 
-        buttonPebolim.setOnClickListener {
-            val intent = Intent(this, Pebolim::class.java)
-            // start your next activity
-            startActivity(intent)
-        }
-
-        buttonFutebol.setOnClickListener {
-            val intent = Intent(this, Futebol::class.java)
-            // start your next activity
-            startActivity(intent)
-        }
     }
 }

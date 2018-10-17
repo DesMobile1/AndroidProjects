@@ -150,22 +150,4 @@
             />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/buttonFutebol"
-            android:text="Futebol"
-            style="@style/buttonChange"/>
-
-        <Button
-            android:id="@+id/buttonPebolim"
-            android:text="Pebolim"
-            style="@style/buttonChange"/>
-
-
-    </LinearLayout>
-
 </LinearLayout >

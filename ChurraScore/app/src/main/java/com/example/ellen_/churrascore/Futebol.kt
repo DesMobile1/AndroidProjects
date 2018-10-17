@@ -1,6 +1,5 @@
 package com.example.ellen_.churrascore
 
-import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -70,16 +69,6 @@ class Futebol : AppCompatActivity() {
             }
         }
 
-        buttonTruco.setOnClickListener {
-            val intent = Intent(this, Truco::class.java)
-            // start your next activity
-            startActivity(intent)
-        }
 
-        buttonPebolim.setOnClickListener {
-            val intent = Intent(this, Pebolim::class.java)
-            // start your next activity
-            startActivity(intent)
-        }
     }
 }
