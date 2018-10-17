@@ -14,11 +14,12 @@ class SplashScreenActivity : AppCompatActivity() {
 
         GlideApp.with(this)
                 .load("https://banner2.kisspng.com/20180715/bex/kisspng-beach-volleyball-admu-lady-blue-spikers-sport-coac-youtube-playlist-icon-5b4aef5f8551a6.8539938915316375995461.jpg")
+                .placeholder(R.mipmap.play)
                 .into(imgLogoApp)
 
         Handler().postDelayed({
-            val listaContatinhos = Intent(this, MainActivity::class.java)
-            startActivity(listaContatinhos)
+            val main = Intent(this, MainActivity::class.java)
+            startActivity(main)
             finish()
         }, 2000)
 
