@@ -19,11 +19,15 @@ class Main2Activity : AppCompatActivity() {
         val todo: ToDoList? = intent.getSerializableExtra(TODO) as ToDoList?
         if(todo != null){
             carregaDados(todo)
+
         }
 
+        addButton.setOnClickListener{
+            salvaToDo()
+        }
     }
 
-    private fun salvaContatinho() {
+    private fun salvaToDo() {
 
         val todo = addText.text.toString()
 

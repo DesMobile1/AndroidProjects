@@ -18,17 +18,14 @@ class MainActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        addButton.setOnClickListener(){
+        addButton2.setOnClickListener(){
             val cadastrarToDo = Intent(this,Main2Activity::class.java)
             startActivityForResult(cadastrarToDo, 1)
         }
 
     }
 
-    override fun onResume() {
-        super.onResume()
-        carregaLista()
-    }
+
 
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -44,6 +41,11 @@ class MainActivity : AppCompatActivity(){
                 }
             }
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        carregaLista()
     }
 
 

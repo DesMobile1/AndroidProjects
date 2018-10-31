@@ -26,7 +26,7 @@ class ToDoAdapter(val context: Context,val todos: List<ToDoList>)
 
     //popula o ViewHolder com as informações do contatinho
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bindView(context, todos[position], clickListener)
+        holder.bindView(todos[position], clickListener)
     }
 
     //configuração a função de clique nos itens
@@ -37,7 +37,7 @@ class ToDoAdapter(val context: Context,val todos: List<ToDoList>)
     //referência para a view de cada item da lista
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        fun bindView(context:Context, todo: ToDoList, clickListener: ((todo:ToDoList, index: Int) -> Unit)?) {
+        fun bindView(todo: ToDoList, clickListener: ((todo:ToDoList, index: Int) -> Unit)?) {
             itemView.tvAdd.text = todo.ToDo
 
 
