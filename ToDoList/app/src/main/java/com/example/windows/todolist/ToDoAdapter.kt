@@ -1,6 +1,7 @@
 package com.example.windows.todolist
 
 import android.content.Context
+import android.hardware.SensorEventListener2
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
@@ -11,7 +12,8 @@ class ToDoAdapter(val context: Context,val todos: List<ToDoList>)
     : RecyclerView.Adapter<ToDoAdapter.ViewHolder>() {
 
     //salva a função do clique no item
-    var clickListener: ((todo:ToDoList, index: Int) -> Unit)? = null
+    var clickListener: ((index: Int) -> Unit)? = null
+    var clickListener2: ((index: Int)-> Unit)? = null
 
     //método responsável por inflar as views
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -26,24 +28,34 @@ class ToDoAdapter(val context: Context,val todos: List<ToDoList>)
 
     //popula o ViewHolder com as informações do contatinho
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bindView(todos[position], clickListener)
+        holder.bindView(context, todos[position], clickListener, clickListener2)
     }
 
     //configuração a função de clique nos itens
-    fun setOnItemClickListener(clique: ((todo:ToDoList, index: Int) -> Unit)){
+    fun setOnItemClickListener(clique: ((index: Int) -> Unit)){
         this.clickListener = clique
+    }
+
+    fun setOnItemClickListener2(clique2: ((index: Int) -> Unit)){
+        this.clickListener2 = clique2
     }
 
     //referência para a view de cada item da lista
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
-        fun bindView(todo: ToDoList, clickListener: ((todo:ToDoList, index: Int) -> Unit)?) {
+        fun bindView(context: Context, todo: ToDoList, clickListener: ((index: Int) -> Unit)?, clickListener2: ((index: Int) -> Unit)?) {
             itemView.tvAdd.text = todo.ToDo
 
 
             if(clickListener != null) {
                 itemView.setOnClickListener {
-                    clickListener.invoke(todo, adapterPosition)
+                    clickListener.invoke(adapterPosition)
+                }
+            }
+
+            if(clickListener2 != null) {
+                itemView.setOnClickListener {
+                    clickListener2.invoke(adapterPosition)
                 }
             }
 

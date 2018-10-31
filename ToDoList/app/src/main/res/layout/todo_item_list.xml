@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="64dp"
+    tools:context=".MainActivity"
+    android:layout_height="wrap_content"
     android:id="@+id/container">
 
     <TextView
         android:id="@+id/tvAdd"
-        android:layout_width="match_parent"
+        android:layout_width="250dp"
         android:layout_height="match_parent"
         android:gravity="center_vertical"
         android:textSize="20sp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:text="ToDo"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="Delete"/>
 
 </LinearLayout>

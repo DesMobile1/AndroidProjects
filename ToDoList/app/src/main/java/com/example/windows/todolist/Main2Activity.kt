@@ -5,6 +5,8 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main2.*
+import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.uiThread
 
 class Main2Activity : AppCompatActivity() {
 
@@ -12,14 +14,15 @@ class Main2Activity : AppCompatActivity() {
         public const val TODO: String = "ToDo"
     }
 
+    var todo: ToDoList? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
 
-        val todo: ToDoList? = intent.getSerializableExtra(TODO) as ToDoList?
+        todo = intent.getSerializableExtra(TODO) as ToDoList?
         if(todo != null){
-            carregaDados(todo)
-
+            carregaDados()
         }
 
         addButton.setOnClickListener{
@@ -29,7 +32,20 @@ class Main2Activity : AppCompatActivity() {
 
     private fun salvaToDo() {
 
-        val todo = addText.text.toString()
+        if (todo == null) {
+            todo = ToDoList(addText.text.toString())
+        } else {
+            todo?.ToDo = addText.text.toString()
+        }
+
+        val todoDao: ToDoDao = AppDatabase.getInstance(this).todoDao()
+        doAsync {
+            todoDao.insert(todo!!)
+
+            uiThread {
+                finish()
+            }
+        }
 
         val abreLista = Intent(this, MainActivity::class.java)
         abreLista.putExtra(TODO, todo)
@@ -37,7 +53,7 @@ class Main2Activity : AppCompatActivity() {
         finish()
     }
 
-    private fun carregaDados(todo: ToDoList) {
-        addText.setText(todo.ToDo)
+    private fun carregaDados() {
+        addText.setText(todo?.ToDo)
     }
 }
