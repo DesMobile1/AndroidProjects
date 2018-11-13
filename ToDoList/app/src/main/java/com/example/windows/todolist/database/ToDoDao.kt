@@ -1,6 +1,7 @@
-package com.example.windows.todolist
+package com.example.windows.todolist.database
 
 import android.arch.persistence.room.*
+import com.example.windows.todolist.entidades.ToDoList
 
 @Dao
 interface ToDoDao {

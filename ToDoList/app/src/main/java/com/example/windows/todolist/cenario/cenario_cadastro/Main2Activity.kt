@@ -1,20 +1,23 @@
-package com.example.windows.todolist
+package com.example.windows.todolist.cenario.cenario_cadastro
 
 import android.app.Activity
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_main2.*
-import org.jetbrains.anko.doAsync
-import org.jetbrains.anko.uiThread
+import android.widget.Toast
+import com.example.windows.todolist.cenario.cenario_lista.MainActivity
+import com.example.windows.todolist.R
+import com.example.windows.todolist.entidades.ToDoList
 
-class Main2Activity : AppCompatActivity() {
+class Main2Activity : AppCompatActivity(), Main2ActivityContract.view {
 
     companion object {
         public const val TODO: String = "ToDo"
     }
 
     var todo: ToDoList? = null
+
+    val presenter: Main2ActivityContract.Presenter = Main2ActivityPresenter(this)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,13 +41,8 @@ class Main2Activity : AppCompatActivity() {
             todo?.ToDo = addText.text.toString()
         }
 
-        val todoDao: ToDoDao = AppDatabase.getInstance(this).todoDao()
-        doAsync {
-            todoDao.insert(todo!!)
-
-            uiThread {
-                finish()
-            }
+        todo?.let {todo ->
+            presenter.onSalvaToDo(this, todo)
         }
 
         val abreLista = Intent(this, MainActivity::class.java)
@@ -55,5 +53,10 @@ class Main2Activity : AppCompatActivity() {
 
     private fun carregaDados() {
         addText.setText(todo?.ToDo)
+    }
+
+    override fun SalvoComSucesso(){
+        Toast.makeText(this, "Salvo", Toast.LENGTH_SHORT)
+        finish()
     }
 }

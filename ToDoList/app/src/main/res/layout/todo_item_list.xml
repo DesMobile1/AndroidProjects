@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".cenario.cenario_lista.MainActivity"
     android:layout_height="wrap_content"
     android:id="@+id/container">
 
@@ -18,7 +18,7 @@
         android:text="ToDo"/>
 
     <Button
-        android:id="@+id/btnSave"
+        android:id="@+id/btnDelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorAccent"
