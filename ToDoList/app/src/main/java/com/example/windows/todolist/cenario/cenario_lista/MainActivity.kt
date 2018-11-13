@@ -7,6 +7,7 @@ import android.content.Intent
 import com.example.windows.todolist.R
 import com.example.windows.todolist.entidades.ToDoList
 import com.example.windows.todolist.cenario.cenario_cadastro.Main2Activity
+import kotlinx.android.synthetic.main.activity_main.*
 import java.util.ArrayList
 
 class MainActivity : AppCompatActivity(), MainActivityContract.view {

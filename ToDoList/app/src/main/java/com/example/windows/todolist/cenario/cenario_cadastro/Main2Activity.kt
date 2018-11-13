@@ -8,6 +8,7 @@ import android.widget.Toast
 import com.example.windows.todolist.cenario.cenario_lista.MainActivity
 import com.example.windows.todolist.R
 import com.example.windows.todolist.entidades.ToDoList
+import kotlinx.android.synthetic.main.activity_main2.*
 
 class Main2Activity : AppCompatActivity(), Main2ActivityContract.view {
 
