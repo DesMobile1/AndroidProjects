@@ -1,4 +1,4 @@
-package com.example.windows.todolist.entidades
+package com.example.windows.todolist
 
 import android.arch.persistence.room.ColumnInfo
 import android.arch.persistence.room.Entity
