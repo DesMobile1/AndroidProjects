@@ -1,12 +1,11 @@
-package com.example.windows.todolist.cenario.cenario_lista
+package com.example.windows.todolist
 
 import android.content.Context
+import android.hardware.SensorEventListener2
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.windows.todolist.R
-import com.example.windows.todolist.entidades.ToDoList
 import kotlinx.android.synthetic.main.todo_item_list.view.*
 
 class ToDoAdapter(val context: Context,val todos: List<ToDoList>)
