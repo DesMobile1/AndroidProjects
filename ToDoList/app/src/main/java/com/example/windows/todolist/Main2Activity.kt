@@ -9,12 +9,15 @@ import android.widget.Toast
 import com.example.windows.todolist.cenario.cenario_lista.MainActivity
 import com.example.windows.todolist.R
 import com.example.windows.todolist.entidades.ToDoList
+<<<<<<< HEAD:ToDoList/app/src/main/java/com/example/windows/todolist/Main2Activity.kt
 import kotlinx.android.synthetic.main.activity_main2.*
 =======
 import kotlinx.android.synthetic.main.activity_main2.*
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 >>>>>>> parent of faba86e... Refatoração para o MVP e organização de pacotes por funcionalidades:ToDoList/app/src/main/java/com/example/windows/todolist/Main2Activity.kt
+=======
+>>>>>>> parent of 612b252... Alterações:ToDoList/app/src/main/java/com/example/windows/todolist/cenario/cenario_cadastro/Main2Activity.kt
 
 class Main2Activity : AppCompatActivity() {
 
