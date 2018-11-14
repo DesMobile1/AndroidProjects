@@ -20,7 +20,15 @@ class MainActivityPresenter(val view: MainActivityContract.view): MainActivityCo
         }
     }
 
-    override fun onDeletaToDo(){
+    override fun onDeletaToDo(context: Context, toDoList: ToDoList){
 
+        val todoDao = AppDatabase.getInstance(context).todoDao()
+        doAsync {
+            todoDao.delete(toDoList)
+            uiThread {
+                onAtualizaLista(context)
+            }
+
+        }
     }
 }

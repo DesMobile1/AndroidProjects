@@ -12,6 +12,6 @@ interface MainActivityContract {
 
     interface Presenter{
         fun onAtualizaLista(context: Context)
-        fun onDeletaToDo()
+        fun onDeletaToDo(context: Context, toDoList: ToDoList)
     }
 }

@@ -7,8 +7,11 @@ import android.os.Bundle
 import android.widget.Toast
 import com.example.windows.todolist.cenario.cenario_lista.MainActivity
 import com.example.windows.todolist.R
+import com.example.windows.todolist.R.id.addButton
+import com.example.windows.todolist.R.id.addText
 import com.example.windows.todolist.entidades.ToDoList
 import kotlinx.android.synthetic.main.activity_main2.*
+import kotlinx.android.synthetic.main.todo_item_list.*
 
 class Main2Activity : AppCompatActivity(), Main2ActivityContract.view {
 
@@ -32,7 +35,9 @@ class Main2Activity : AppCompatActivity(), Main2ActivityContract.view {
         addButton.setOnClickListener{
             salvaToDo()
         }
+
     }
+
 
     private fun salvaToDo() {
 
@@ -57,7 +62,7 @@ class Main2Activity : AppCompatActivity(), Main2ActivityContract.view {
     }
 
     override fun SalvoComSucesso(){
-        Toast.makeText(this, "Salvo", Toast.LENGTH_SHORT)
+        Toast.makeText(this, "Salvo", Toast.LENGTH_SHORT).show()
         finish()
     }
 }
