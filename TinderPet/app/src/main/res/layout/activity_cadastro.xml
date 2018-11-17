@@ -7,32 +7,5 @@
     android:orientation="vertical"
     tools:context=".Cadastro">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
+    // spinner
 </LinearLayout>

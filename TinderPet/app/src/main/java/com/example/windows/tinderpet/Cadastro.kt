@@ -1,15 +1,13 @@
 package com.example.windows.tinderpet
-
+import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.app.Activity
 
-import kotlinx.android.synthetic.main.activity_cadastro.*
-
-class Cadastro : Activity() {
+class Cadastro : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_cadastro)
+        setContentView(R.layout.activity_main)
+
     }
 
 }
