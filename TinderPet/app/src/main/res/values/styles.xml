@@ -8,4 +8,52 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="EditTextBasic">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/rounded_border</item>
+        <item name="android:textColor">@color/Gray</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="ButtonGreen">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/Green</item>
+        <item name="android:background">@drawable/button_green</item>
+    </style>
+
+    <style name="TextLink">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/Blue</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="TextBasic">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="ButtonGrade">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/Red</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:background">@drawable/simple_border</item>
+
+    </style>
+
+
+
 </resources>

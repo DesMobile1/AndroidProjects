@@ -20,8 +20,11 @@
             android:name=".cadastroLogin"
             android:label="@string/title_activity_cadastro_login" />
         <activity
-            android:name=".Cadastro"
-            android:label="@string/title_activity_cadastro"></activity>
+            android:name=".cadastroUsuario"
+            android:label="@string/title_activity_cadastro" />
+        <activity android:name=".homeUsuario" />
+        <activity android:name=".ajustePerfil" />
+        <activity android:name=".animaisCadastrados"></activity>
     </application>
 
 </manifest>

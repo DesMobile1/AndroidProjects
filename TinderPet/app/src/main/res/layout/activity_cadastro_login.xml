@@ -5,70 +5,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/White"
     tools:context=".cadastroLogin">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"/>
     
     <TextView
-        android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:text="Acesse para continuar..."
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textAlignment="center"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"/>
-
-    <EditText
-        android:textSize="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Email ou Número de Celular"
+        android:textColor="@color/Red"
         />
 
     <EditText
-        android:textSize="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/edt_user"
+        style="@style/EditTextBasic"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="50dp"
+        android:hint="Email ou Número de celular"
+        android:drawableLeft="@drawable/ic_user"
+        />
+
+    <EditText
+        android:id="@+id/edt_senha"
+        style="@style/EditTextBasic"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
         android:hint="Senha"
+        android:drawableLeft="@drawable/ic_key"
         />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/btn_login"
+        style="@style/ButtonGreen"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
         android:textAlignment="center"
-        android:text="Entrar"/>
+        android:text="Entrar"
+        />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"/>
+        style="@style/TextBasic"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="10dp"
+        android:text="Não possui uma conta?"
+        />
 
     <TextView
-        android:textSize="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Não possui uma conta?"/>
-
-    <TextView
-        android:textSize="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:id="@+id/btn_cadastro"
+        style="@style/TextLink"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
         android:text="Cadastra-se com e-mail"
         android:textAlignment="center"
-        android:linksClickable="true"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="3"/>
-
+        android:drawableLeft="@drawable/ic_email"
+        android:drawableTint="@color/Blue"
+        />
 
 </LinearLayout>
