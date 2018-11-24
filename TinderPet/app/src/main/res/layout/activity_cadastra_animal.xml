@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/White"
+    tools:context=".cadastraAnimal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:drawableLeft="@drawable/ic_voltar"
+            android:drawableTint="@color/Blue"
+            android:padding="20dp"
+            android:paddingLeft="20dp"
+
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/Blue"
+            android:visibility="visible"
+            android:layout_marginVertical="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:background="@color/White"
+            android:drawableLeft="@drawable/ic_osso"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/Blue"
+            android:padding="20dp"
+            android:text="Adicionar Animal"
+            android:textColor="@color/Blue"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/Blue"
+            android:visibility="visible"
+            android:layout_marginVertical="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:drawableLeft="@drawable/ic_salvar"
+            android:drawableTint="@color/Blue"
+            android:padding="20dp"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Blue"
+        android:visibility="visible"
+        android:layout_marginHorizontal="10dp"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@mipmap/ic_pet" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@mipmap/ic_pet" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@mipmap/ic_pet" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edt_idade"
+                style="@style/EditTextBasic"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Idade" />
+
+            <EditText
+                android:id="@+id/edt_nome"
+                style="@style/EditTextBasic"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:hint="Nome" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Switch
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/Red"
+                    android:trackTint="@color/Red"
+                    android:enabled="false"/>
+
+                <TextView
+
+                    style="@style/TextBasic"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginVertical="10dp"
+                    android:text=" Sem nome" />
+            </LinearLayout>
+
+            <MultiAutoCompleteTextView
+                style="@style/EditTextBasic"
+                android:id="@+id/edt_especie"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Selecione a especie"/>
+
+            <MultiAutoCompleteTextView
+                style="@style/EditTextBasic"
+                android:id="@+id/edt_porte"
+                android:layout_margin="10dp"
+                android:text="Selecione o porte"/>
+
+            <MultiAutoCompleteTextView
+                style="@style/EditTextBasic"
+                android:id="@+id/edt_sexo"
+                android:layout_marginHorizontal="10dp"
+                android:text="Selecione o sexo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Switch
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginVertical="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/Red"
+                    android:trackTint="@color/Red"
+                    android:enabled="false"/>
+
+                <TextView
+
+                    style="@style/TextBasic"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginVertical="20dp"
+                    android:text=" Castrado" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edt_descricao"
+                style="@style/EditTextBasic"
+                android:layout_height="120dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginHorizontal="10dp"
+                android:hint="Descrição"
+                android:lineSpacingMultiplier="30" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

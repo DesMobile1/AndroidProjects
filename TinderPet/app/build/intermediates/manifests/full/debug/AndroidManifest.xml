@@ -33,6 +33,11 @@
         <activity android:name="com.example.windows.tinderpet.homeUsuario" />
         <activity android:name="com.example.windows.tinderpet.ajustePerfil" />
         <activity android:name="com.example.windows.tinderpet.animaisCadastrados" />
+        <activity android:name="com.example.windows.tinderpet.cadastraAnimal" />
+        <activity android:name="com.example.windows.tinderpet.preferenciasAdotante" />
+        <activity android:name="com.example.windows.tinderpet.fire" />
+        <activity android:name="com.example.windows.tinderpet.matchesAdotante" />
+        <activity android:name="com.example.windows.tinderpet.descricaoAnimal" />
     </application>
 
 </manifest>

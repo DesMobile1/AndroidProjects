@@ -24,7 +24,12 @@
             android:label="@string/title_activity_cadastro" />
         <activity android:name=".homeUsuario" />
         <activity android:name=".ajustePerfil" />
-        <activity android:name=".animaisCadastrados"></activity>
+        <activity android:name=".animaisCadastrados" />
+        <activity android:name=".cadastraAnimal" />
+        <activity android:name=".preferenciasAdotante" />
+        <activity android:name=".fire" />
+        <activity android:name=".matchesAdotante" />
+        <activity android:name=".descricaoAnimal"></activity>
     </application>
 
 </manifest>
