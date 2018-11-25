@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Nov 20 01:50:37 BRST 2018
+0.baseType=DIRECTORY
+0.base=D\:\\Users\\Ellen-\\Android Projets\\TinderPet\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1
