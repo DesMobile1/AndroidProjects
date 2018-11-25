@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/White"
+    tools:context=".cadastroUsuario">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Preencha os campos de cadastro:"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/Red"
+        />
+
+    <EditText
+        android:id="@+id/edt_nome"
+        style="@style/EditTextBasic"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Nome"
+        android:drawableLeft="@drawable/ic_user"
+        />
+
+    <EditText
+        android:id="@+id/edt_data"
+        style="@style/EditTextBasic"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Data de nascimento"
+        android:drawableLeft="@drawable/ic_data"
+        />
+
+    <EditText
+        android:id="@+id/edt_numero"
+        style="@style/EditTextBasic"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Numero de celular"
+        android:drawableLeft="@drawable/ic_telefone"
+        />
+
+    <EditText
+        android:id="@+id/edt_email"
+        style="@style/EditTextBasic"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="E-mail"
+        android:drawableLeft="@drawable/ic_email"
+        />
+
+    <EditText
+        android:id="@+id/edt_senha"
+        style="@style/EditTextBasic"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Senha"
+        android:drawableLeft="@drawable/ic_key"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            style="@style/TextBasic"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="Li e aceito os"
+            />
+
+        <TextView
+            android:id="@+id/btn_termos"
+            style="@style/TextLink"
+            android:layout_marginTop="10dp"
+            android:text="Termos de uso"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_cadastrar"
+        style="@style/ButtonGreen"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:text="Cadastrar-se"
+        />
+
+</LinearLayout>

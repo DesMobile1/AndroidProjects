@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TinderPet</string>
+    <string name="title_activity_cadastro_login">cadastroLogin</string>
+    <string name="title_activity_cadastro">Cadastro</string>
+</resources>

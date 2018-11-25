@@ -1,166 +1,227 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:2:1-27:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\97d03a0993958b63f99c4e4e04a49ce4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e428f922cc64935f364ed01eaa7bfc17\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\0256d2a0aa59739dd13626ac397969bb\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\24bfafc857229ffd3df94f101d101898\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\a2038bd37581d7a9a839eb4d42cba20e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b7326a5e498304cace9090ecbb8ed90e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\7290d74e906c4718973d49e409483e7f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\101fab6ffb53e15f21284f75ad38e936\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\d6278e642622aeec7085fa7ef56e361f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\38b7e07804522c1b05e91159c6f32b8a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\bf0e9c19c83a4329a2af7b11463436f9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\6ccac29755e29309bcf8a1255c1cc7b6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\bbb3a14de69eaeb917f67cbdd70ae1f5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\844d04e92f32940de161c738b1ed6b63\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d45e44816fa7b5d005d71080253cbe09\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\84b27df828de71570a6658a8dd29f8a1\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3f7204b627484b16f1cb740e49e8eeb0\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\516ca0ba11ec67597d30b46e7be73094\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1bce5bb8dec5d4e4105b614a4952bce7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ef84860356759ad3e2e8147ed7e446a9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\4cf5b94d38821c93d739f1f6516a34cf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\cb71de3e616e5014d19c5143cb1a3ee0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\71b7e67aa3e0930502f711da02666be4\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\83cebe9ad0e1e9db89e98ce81fa351dc\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\58bac629a83366598d7fa7c1bd4e242e\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\70db8fab4d1b02e8d966b7882b4aac71\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7e3235934b774a37648df57f4d11ed03\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ed2d3ede1afe69f4b50892c5bb78fffe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\50ece9cb57ac4f781dacfd9220be26db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5370efb12e8c94bff5d429778a0addb8\AndroidManifest.xml:2:1-11:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\3bfbb350ad7b9ae5f7bd092de2f811b2\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\38f4586df900e2b6d12b21f14d6e9e2e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\485ac71d651d1a8cd06662138a2b164c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\88d595ea70437949e2db4fe192343b26\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\4dd465cfd737df5e3bd2b07ddf5fe8f4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\945b44221ef264bceb7356c60fb80b57\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\33fa6a16eb2d09aee64ecb68acef564e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\bdfb511d5ae62673a656972ee5df3612\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\5cf71ec279be0f1ca1e038432a2c5735\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\a056ac48804dd3610e7c2e5c235c5115\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\3de97e23f326f2e5b68766d09a4ad29f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0f97420b45ab6832bc9a1065ada8d4b1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b4c299edfdb39e5a0897f8e81204727\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\e86267e6b50d9234600faf5b544640c0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b368082aae34ca0329bbab617201ebd9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\67017ff77389a450c0405ed451ddcc6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\4a4eec09be9814438504423f170b16ad\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\8fc3d88474a74ca2cb99f9f24514e491\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\adcc624632f5c68a464ec96ae50c746c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\47a32e2def85c3cb65aede007bdfd719\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2cc11e7e1c824a3840398edb549e00c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\7db743a5d36786c04b8b5037ec1b5f63\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d99f5503bd764d280139b67965213458\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\9eb3f31c5e6a6a7b33f8f40ee98448a1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f7216a7c84331fb373d7b1ce1764b730\AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1369061f97e89e0989f6abfc6cd2adac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\92efedd4582511514dbeb5a9adc765b6\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\561ce505cb39a33ef63e1057da3eb1cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\172a03da7368900e20c75f83dc12ad0b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\ebf09a6729cbf85aae5b69c539d76c13\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\1b574e30c65af5e509b19772f0f41c3c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7ae4cecb8c75291b9261f929e0bcc15d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0da645c8dfd68b1b4fd7b21652f9ac4c\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:2:1-27:12
-		INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:2:1-35:12
+		INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:5:5-25:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e428f922cc64935f364ed01eaa7bfc17\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e428f922cc64935f364ed01eaa7bfc17\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\84b27df828de71570a6658a8dd29f8a1\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\84b27df828de71570a6658a8dd29f8a1\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3f7204b627484b16f1cb740e49e8eeb0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3f7204b627484b16f1cb740e49e8eeb0\AndroidManifest.xml:22:5-23:19
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:5:5-33:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5370efb12e8c94bff5d429778a0addb8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5370efb12e8c94bff5d429778a0addb8\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\3bfbb350ad7b9ae5f7bd092de2f811b2\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\3bfbb350ad7b9ae5f7bd092de2f811b2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f7216a7c84331fb373d7b1ce1764b730\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f7216a7c84331fb373d7b1ce1764b730\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\92efedd4582511514dbeb5a9adc765b6\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\92efedd4582511514dbeb5a9adc765b6\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\84b27df828de71570a6658a8dd29f8a1\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f7216a7c84331fb373d7b1ce1764b730\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.windows.tinderpet.MainActivity
-ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.example.windows.tinderpet.cadastroLogin
-ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:19:9-21:69
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:19:9-21:69
 	android:label
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:21:13-66
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:21:13-66
 	android:name
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:20:13-42
-activity#com.example.windows.tinderpet.Cadastro
-ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:22:9-24:72
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:20:13-42
+activity#com.example.windows.tinderpet.cadastroUsuario
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:22:9-24:63
 	android:label
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:24:13-60
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:24:13-60
 	android:name
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:23:13-44
+activity#com.example.windows.tinderpet.homeUsuario
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:25:9-49
+	android:name
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:25:19-46
+activity#com.example.windows.tinderpet.ajustePerfil
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:26:9-50
+	android:name
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:26:19-47
+activity#com.example.windows.tinderpet.animaisCadastrados
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:27:9-56
+	android:name
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:27:19-53
+activity#com.example.windows.tinderpet.cadastraAnimal
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:28:9-52
+	android:name
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:28:19-49
+activity#com.example.windows.tinderpet.preferenciasAdotante
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:29:9-58
+	android:name
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:29:19-55
+activity#com.example.windows.tinderpet.fire
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:30:9-42
+	android:name
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:30:19-39
+activity#com.example.windows.tinderpet.matchesAdotante
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:31:9-53
+	android:name
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:31:19-50
+activity#com.example.windows.tinderpet.descricaoAnimal
+ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:32:9-62
+	android:name
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml:32:19-50
 uses-sdk
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\97d03a0993958b63f99c4e4e04a49ce4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\97d03a0993958b63f99c4e4e04a49ce4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e428f922cc64935f364ed01eaa7bfc17\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\e428f922cc64935f364ed01eaa7bfc17\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\0256d2a0aa59739dd13626ac397969bb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\0256d2a0aa59739dd13626ac397969bb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\24bfafc857229ffd3df94f101d101898\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\24bfafc857229ffd3df94f101d101898\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\a2038bd37581d7a9a839eb4d42cba20e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\a2038bd37581d7a9a839eb4d42cba20e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b7326a5e498304cace9090ecbb8ed90e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\b7326a5e498304cace9090ecbb8ed90e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\7290d74e906c4718973d49e409483e7f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\7290d74e906c4718973d49e409483e7f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\101fab6ffb53e15f21284f75ad38e936\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\101fab6ffb53e15f21284f75ad38e936\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\d6278e642622aeec7085fa7ef56e361f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\d6278e642622aeec7085fa7ef56e361f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\38b7e07804522c1b05e91159c6f32b8a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\38b7e07804522c1b05e91159c6f32b8a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\bf0e9c19c83a4329a2af7b11463436f9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\bf0e9c19c83a4329a2af7b11463436f9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\6ccac29755e29309bcf8a1255c1cc7b6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\6ccac29755e29309bcf8a1255c1cc7b6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\bbb3a14de69eaeb917f67cbdd70ae1f5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\bbb3a14de69eaeb917f67cbdd70ae1f5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\844d04e92f32940de161c738b1ed6b63\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\844d04e92f32940de161c738b1ed6b63\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d45e44816fa7b5d005d71080253cbe09\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d45e44816fa7b5d005d71080253cbe09\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\84b27df828de71570a6658a8dd29f8a1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\84b27df828de71570a6658a8dd29f8a1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3f7204b627484b16f1cb740e49e8eeb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\3f7204b627484b16f1cb740e49e8eeb0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\516ca0ba11ec67597d30b46e7be73094\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\516ca0ba11ec67597d30b46e7be73094\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1bce5bb8dec5d4e4105b614a4952bce7\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1bce5bb8dec5d4e4105b614a4952bce7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ef84860356759ad3e2e8147ed7e446a9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ef84860356759ad3e2e8147ed7e446a9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\4cf5b94d38821c93d739f1f6516a34cf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\4cf5b94d38821c93d739f1f6516a34cf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\cb71de3e616e5014d19c5143cb1a3ee0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\cb71de3e616e5014d19c5143cb1a3ee0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\71b7e67aa3e0930502f711da02666be4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\71b7e67aa3e0930502f711da02666be4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\83cebe9ad0e1e9db89e98ce81fa351dc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\83cebe9ad0e1e9db89e98ce81fa351dc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\58bac629a83366598d7fa7c1bd4e242e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\58bac629a83366598d7fa7c1bd4e242e\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\70db8fab4d1b02e8d966b7882b4aac71\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\70db8fab4d1b02e8d966b7882b4aac71\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7e3235934b774a37648df57f4d11ed03\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Windows\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\7e3235934b774a37648df57f4d11ed03\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ed2d3ede1afe69f4b50892c5bb78fffe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\ed2d3ede1afe69f4b50892c5bb78fffe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\50ece9cb57ac4f781dacfd9220be26db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\50ece9cb57ac4f781dacfd9220be26db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5370efb12e8c94bff5d429778a0addb8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\5370efb12e8c94bff5d429778a0addb8\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\3bfbb350ad7b9ae5f7bd092de2f811b2\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\3bfbb350ad7b9ae5f7bd092de2f811b2\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\38f4586df900e2b6d12b21f14d6e9e2e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\38f4586df900e2b6d12b21f14d6e9e2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\485ac71d651d1a8cd06662138a2b164c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\485ac71d651d1a8cd06662138a2b164c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\88d595ea70437949e2db4fe192343b26\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\88d595ea70437949e2db4fe192343b26\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\4dd465cfd737df5e3bd2b07ddf5fe8f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.1.aar\4dd465cfd737df5e3bd2b07ddf5fe8f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\945b44221ef264bceb7356c60fb80b57\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\db-1.1.1.aar\945b44221ef264bceb7356c60fb80b57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\33fa6a16eb2d09aee64ecb68acef564e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\33fa6a16eb2d09aee64ecb68acef564e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\bdfb511d5ae62673a656972ee5df3612\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\bdfb511d5ae62673a656972ee5df3612\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\5cf71ec279be0f1ca1e038432a2c5735\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\5cf71ec279be0f1ca1e038432a2c5735\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\a056ac48804dd3610e7c2e5c235c5115\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\a056ac48804dd3610e7c2e5c235c5115\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\3de97e23f326f2e5b68766d09a4ad29f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\3de97e23f326f2e5b68766d09a4ad29f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0f97420b45ab6832bc9a1065ada8d4b1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\0f97420b45ab6832bc9a1065ada8d4b1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b4c299edfdb39e5a0897f8e81204727\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\9b4c299edfdb39e5a0897f8e81204727\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\e86267e6b50d9234600faf5b544640c0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\e86267e6b50d9234600faf5b544640c0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b368082aae34ca0329bbab617201ebd9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b368082aae34ca0329bbab617201ebd9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\67017ff77389a450c0405ed451ddcc6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\67017ff77389a450c0405ed451ddcc6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\4a4eec09be9814438504423f170b16ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\4a4eec09be9814438504423f170b16ad\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\8fc3d88474a74ca2cb99f9f24514e491\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\8fc3d88474a74ca2cb99f9f24514e491\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\adcc624632f5c68a464ec96ae50c746c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\adcc624632f5c68a464ec96ae50c746c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\47a32e2def85c3cb65aede007bdfd719\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\47a32e2def85c3cb65aede007bdfd719\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2cc11e7e1c824a3840398edb549e00c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\2cc11e7e1c824a3840398edb549e00c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\7db743a5d36786c04b8b5037ec1b5f63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\7db743a5d36786c04b8b5037ec1b5f63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d99f5503bd764d280139b67965213458\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\d99f5503bd764d280139b67965213458\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\9eb3f31c5e6a6a7b33f8f40ee98448a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\9eb3f31c5e6a6a7b33f8f40ee98448a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f7216a7c84331fb373d7b1ce1764b730\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\f7216a7c84331fb373d7b1ce1764b730\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1369061f97e89e0989f6abfc6cd2adac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\1369061f97e89e0989f6abfc6cd2adac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\92efedd4582511514dbeb5a9adc765b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\92efedd4582511514dbeb5a9adc765b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\561ce505cb39a33ef63e1057da3eb1cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\561ce505cb39a33ef63e1057da3eb1cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\172a03da7368900e20c75f83dc12ad0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\172a03da7368900e20c75f83dc12ad0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\ebf09a6729cbf85aae5b69c539d76c13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\ebf09a6729cbf85aae5b69c539d76c13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\1b574e30c65af5e509b19772f0f41c3c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\1b574e30c65af5e509b19772f0f41c3c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7ae4cecb8c75291b9261f929e0bcc15d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7ae4cecb8c75291b9261f929e0bcc15d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0da645c8dfd68b1b4fd7b21652f9ac4c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Ellen-\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0da645c8dfd68b1b4fd7b21652f9ac4c\AndroidManifest.xml:20:5-44
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
+INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Windows\Documents\GitHub\AndroidProjects\TinderPet\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
+		ADDED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Users\Ellen-\Android Projets\TinderPet\app\src\main\AndroidManifest.xml

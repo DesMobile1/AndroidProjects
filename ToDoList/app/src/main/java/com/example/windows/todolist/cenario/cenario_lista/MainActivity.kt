@@ -7,11 +7,14 @@ import android.content.Intent
 import com.example.windows.todolist.R
 import com.example.windows.todolist.entidades.ToDoList
 import com.example.windows.todolist.cenario.cenario_cadastro.Main2Activity
+import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.todo_item_list.*
 import java.util.ArrayList
 
 class MainActivity : AppCompatActivity(), MainActivityContract.view {
 
     var todos : MutableList<ToDoList> = mutableListOf()
+
 
     val presenter : MainActivityContract.Presenter = MainActivityPresenter(this)
 
@@ -26,12 +29,13 @@ class MainActivity : AppCompatActivity(), MainActivityContract.view {
 
 
 
-
     }
 
     override fun onResume() {
         super.onResume()
         presenter.onAtualizaLista(this)
+
+
     }
 
     override fun onSaveInstanceState(outState: Bundle?) {
@@ -48,8 +52,8 @@ class MainActivity : AppCompatActivity(), MainActivityContract.view {
     override fun exibeLista(lista: MutableList<ToDoList>) {
         todos = lista
 
-
         val adapter = ToDoAdapter(this, todos)
+
 
         //configura o clique em cada item do RecyclerView
         adapter.setOnItemClickListener { indexToDoListClicado ->
@@ -58,6 +62,10 @@ class MainActivity : AppCompatActivity(), MainActivityContract.view {
             startActivity(editaToDoList)
         }
 
+        adapter.setOnItemClickListener2 {indexToDoListClicado ->
+            presenter.onDeletaToDo(this,todos.get(indexToDoListClicado))
+
+        }
 
 
         val layoutManager = LinearLayoutManager(this)
