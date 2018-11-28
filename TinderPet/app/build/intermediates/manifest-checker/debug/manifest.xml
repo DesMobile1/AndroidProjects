@@ -29,8 +29,16 @@
             android:name="com.example.windows.tinderpet.cadastroLogin"
             android:label="@string/title_activity_cadastro_login" />
         <activity
-            android:name="com.example.windows.tinderpet.Cadastro"
+            android:name="com.example.windows.tinderpet.cadastroUsuario"
             android:label="@string/title_activity_cadastro" />
+        <activity android:name="com.example.windows.tinderpet.homeUsuario" />
+        <activity android:name="com.example.windows.tinderpet.ajustePerfil" />
+        <activity android:name="com.example.windows.tinderpet.animaisCadastrados" />
+        <activity android:name="com.example.windows.tinderpet.cadastraAnimal" />
+        <activity android:name="com.example.windows.tinderpet.preferenciasAdotante" />
+        <activity android:name="com.example.windows.tinderpet.fire" />
+        <activity android:name="com.example.windows.tinderpet.matchesAdotante" />
+        <activity android:name="com.example.windows.tinderpet.descricaoAnimal" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Users\\Ellen-\\Android Projets\\TinderPet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "C:\\Users\\Windows\\Documents\\GitHub\\AndroidProjects\\TinderPet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ellen-\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\50ece9cb57ac4f781dacfd9220be26db\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\97d03a0993958b63f99c4e4e04a49ce4\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

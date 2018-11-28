@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Users\\Ellen-\\Android Projets\\TinderPet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\Windows\\Documents\\GitHub\\AndroidProjects\\TinderPet\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Ellen-\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\50ece9cb57ac4f781dacfd9220be26db\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\97d03a0993958b63f99c4e4e04a49ce4\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Ellen-\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\ed2d3ede1afe69f4b50892c5bb78fffe\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Windows\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\9d635a1d58fe49dde82c50c869013f87\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
